@@ -1,18 +1,52 @@
-# React + Vite
+# **Stopwatch using React.js**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My first project built with React.js using Vite.
 
-Currently, two official plugins are available:
+## Features
+- Start/Pause timer button
+- Reset timer button
+- Add lap button
+- List of laps mapped to their times
+- Fancy green theme :3
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech
 
-## React Compiler
+- React.js
+- Vite
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## What I learned
 
-Note: This will impact Vite dev & build performances.
+- useState()
+- useEffect()
+- setInterval()
+- Components
+- Component props
+- React.js project structure
+- Using font awesome with React.js
 
-## Expanding the ESLint configuration
+## Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1- Clone repository using and navigate to it with the command:
+```bash
+git clone https://github.com/iyedoo/react-stopwatch.git
+cd react-stopwatch
+```
+
+2- Install dependencies with the command:
+```bash
+npm install
+```
+
+\* If you don't already npm you can follow the installtion tutorial [here](https://nodejs.org/en/download)
+
+3- Start the development server:
+```bash
+npm run dev
+```
+
+4- Open: **http://localhost:5173/**
+
+## Preview
+
+![Stopwatch Preview](preview.png)
+
