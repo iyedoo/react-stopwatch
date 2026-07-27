@@ -1,0 +1,9 @@
+.lap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #b8ffa3;
+}

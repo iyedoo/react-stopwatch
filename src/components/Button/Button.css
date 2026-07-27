@@ -1,0 +1,27 @@
+button {
+    width: 70px;
+    height: 70px;
+    background: #6ca75b;
+    padding: 10px;
+    border: solid 2px #528544;
+    cursor: pointer;
+    color: #b8ffa3;
+    font-size: 2rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s ease;
+}
+
+button:not(:disabled):hover {
+    transform: scale(1.02);
+    background: #86c476;
+}
+
+button:disabled {
+    background: #aaa;
+    border: solid 2px #888;
+    color: #fff;
+    cursor: default;
+}

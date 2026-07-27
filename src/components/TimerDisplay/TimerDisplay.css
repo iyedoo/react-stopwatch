@@ -1,0 +1,17 @@
+.main {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.main p {
+    color: #b8ffa3;
+    font-size: 8rem;
+}
+
+.main .milli {
+    font-size: 4rem;
+    margin-bottom: 17px;
+}
